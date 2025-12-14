@@ -3,6 +3,9 @@
 ## Overview
 This project is a beginner-friendly cybersecurity web application that analyzes password strength and explains why weak passwords create security risks.
 
+## Live Demo
+[https://passwordstrengthanalyzer.netlify.app/](https://passwordstrengthanalyzer.netlify.app/)
+
 ## Why I Built This
 I built this project to better understand authentication security and how attackers exploit weak passwords using brute-force and dictionary attacks.
 

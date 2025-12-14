@@ -5,6 +5,7 @@
  */
 import { Shield } from 'lucide-react';
 import { PasswordAnalyzer } from '@/components/PasswordAnalyzer';
+import { EducationalNotes } from '@/components/EducationalNotes';
 
 const Index = () => {
   return (
@@ -38,8 +39,13 @@ const Index = () => {
         </header>
         
         {/* Main analyzer component */}
-        <main className="px-4 pb-12">
+        <main className="px-4 pb-12 space-y-8">
           <PasswordAnalyzer />
+          
+          {/* Educational notes section */}
+          <div className="max-w-2xl mx-auto">
+            <EducationalNotes />
+          </div>
         </main>
         
         {/* Footer */}
